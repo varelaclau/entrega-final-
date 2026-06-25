@@ -1,0 +1,110 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(131, 147, 106);
+}
+main {
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    background-color: #b2cc99;
+    padding: 0 10px 10px 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section2 {
+    padding: 0 20px;
+    width: 250px;
+    height: 510px;
+    border-bottom-left-radius: 8px;
+    background-color: #b2cc99;
+}
+
+.estadisticas {
+    border: 1px solid black;
+    height: 100px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+.start {
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 5px solid rgb(56, 77, 61);
+    background-color: rgb(156, 186, 163);
+}
+
+footer {
+    cursor: not-allowed;
+    opacity: 50%;
+    text-align: center;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #2E4020;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 25px;
+    padding: 20px;
+    color: #2E4020;
+    font-weight: 800;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: greenyellow;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+

@@ -1,0 +1,106 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(131, 147, 106);
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    color: #2c4226;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #2c4226;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu .navbar ul li a:hover {
+    color: greenyellow;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+hr {
+    width: 500px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+}
+
+#game-board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+
+    background-color: #b2cc99;
+    color: aliceblue;
+    border: 8px;
+    color: rgb(0, 0, 0);
+
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+}
+
+.game-cell {
+    border: 8px solid rgb(0, 0, 0);
+    font-size: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winning-game-cell {
+    background-color: rgb(245, 255, 245);
+    color: rgb(51, 113, 83);
+}
+
+#game-restart-button {
+    height: 50p;
+    width: 150px;
+    border: 5px solid rgb(56, 77, 61);
+    background-color: rgb(156, 186, 163);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 20px ;
+}
